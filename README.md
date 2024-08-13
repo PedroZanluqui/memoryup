@@ -15,7 +15,7 @@ Memory UP é uma solução multiplataforma para o problema da Curva do Esquecime
 Landing Page:
 
 - Descrição: Página principal que apresenta o conceito do projeto e os planos de assinatura.
-- Arquivo: LandingPage.html
+- Arquivo: index.html
 - Conteúdo: Informações sobre a Curva do Esquecimento. Opções de teste e acesso aos planos. Descrição do Memory UP e seu funcionamento.
 
 Página do Usuário:
