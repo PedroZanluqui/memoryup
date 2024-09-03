@@ -1100,3 +1100,68 @@ hr{
     padding-top: 2rem;
 }
 
+
+//Pagina de Revisões
+.classeQueNaoFunciona{
+    margin: 0 5rem;
+}
+
+.text-pagRevisao h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.input-categoria {
+    margin-top: 5rem;
+}
+
+.input-categoria p {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+    vertical-align: middle; 
+    font-weight: bold;
+}
+
+.input-categoria input {
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #9e9ea0;
+    width: 30%;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    vertical-align: middle; 
+}
+
+.button-categoria {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    width: 4rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 3px;
+    color: var(--main--whitetext--solidcolor);
+    background: rgb(205,129,255);
+    background-image: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
+    vertical-align: middle; 
+}
+
+.button-categoria:hover {
+    background: rgb(145,63,211);
+    background-image: linear-gradient(180deg, rgba(145,63,211,1) 0%, rgba(86,0,143,1) 100%);
+}
+
+.input-categoria select{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #9e9ea0;
+    width: 30%;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    vertical-align: middle; 
+}
