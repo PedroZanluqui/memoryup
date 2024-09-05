@@ -911,13 +911,6 @@ footer {
     font-weight: bold;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Escolha uma fonte padrão */
-}
-
 main {
     width: 100%;
 }
@@ -933,15 +926,15 @@ main {
     width: 100%;
     align-items: flex-start;
     gap: 2rem;
-    padding: 1rem; /* Espaçamento interno opcional */
+    padding: 1rem; 
 }
 
 .aside_categoria {
-    flex: 0 1 30%; /* O aside ocupa 30% do espaço disponível */
-    max-width: 30%; /* Limite máximo de largura do aside */
+    flex: 0 1 30%; 
+    max-width: 30%; 
     box-sizing: border-box;
-    padding: 1rem; /* Espaçamento interno do aside */
-    margin-left: 15rem; /* Adicione a margem esquerda aqui */
+    padding: 1rem; 
+    margin-left: 15rem; 
 }
 
 .Biblioteca_Categorias {
@@ -998,7 +991,7 @@ main {
 }
 
 .Revisao_Prevista {
-    flex: 1; /* Ocupa o espaço restante */
+    flex: 1; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1102,6 +1095,8 @@ hr{
 
 
 //Pagina de Revisões
+
+
 .classeQueNaoFunciona{
     margin: 0 5rem;
 }
@@ -1164,4 +1159,48 @@ hr{
     font-size: 1.5rem;
     margin-left: 1.5rem;
     vertical-align: middle; 
+}
+
+.input-categoria option{
+    font-size: 1.5rem;
+}
+
+.main-material-estudos{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem; 
+}
+
+.section-material-estudos {
+    flex: 0 1 30%; 
+    max-width: 30%; 
+    box-sizing: border-box;
+    margin-left: 7.5rem; 
+    margin-top: 5rem;
+    width: 15rem;
+    height: 38rem;
+
+    background-color: #F7F9FB;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
+}
+
+.nav-of-section-material-estudos{
+    margin-bottom: 8rem;
+
+    background-color: #FFFFFF;
+}
+
+.section-material-estudos hr{
+    width: 100%;
+    height: 0.2rem;
+}
+
+.section-material-estudos input{
+    width: 100%;
+    height: 100%;
+
+    font-size: 1.5rem;
 }
