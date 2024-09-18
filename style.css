@@ -302,6 +302,228 @@ h2{
     height: 40rem;
 }
 
+.div-of-frame-on-landing-page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 20rem;
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    background-color: #F9F9F9;
+}
+
+.section-of-frame-on-landing-page{
+    
+    box-shadow: 14px 14px 12px 14px rgba(0,0,0,0.1);
+
+    border-radius: 1rem;
+
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+
+}
+
+.section-of-frame-on-landing-page h1{
+    font-size: 3rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.section-of-frame-on-landing-page li{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 5rem;
+
+    background: rgb(255,229,61);
+    background: linear-gradient(180deg, rgba(255,229,61,1) 0%, rgba(253,197,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.list-of-frame-on-landing-page{
+    width: 485px;
+}
+.list-of-frame-on-landing-page span{
+    color: #6A0DAD;
+}
+.section-of-frame-on-landing-page li::marker {
+    color:rgb(255,229,61);
+  }
+
+.span-of-list-frame{
+    font-size: 1.5rem;
+    background: #6A0DAD;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-weight: bold;
+}
+
+
+.pricing-section {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+.pricing-section h2 {
+    color: #6A0DAD;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+
+.pricing-card {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    width: 320px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pricing-card h3 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card h4 {
+    font-size: 2.5rem;
+    color: #1E1F24;
+}
+
+.pricing-card p {
+    color: #666;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.pricing-card ul li {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 0.7rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.pricing-card ul li::before {
+    content: '✔';
+    color: #00CC66;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pricing-card button {
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1.2rem 2.5rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.pricing-card button:hover {
+    background-color: #550a9d;
+}
+
+.premium-price{
+    background: rgb(255,215,0);
+    background: linear-gradient(180deg, rgba(255,215,0,1) 0%, rgba(255,167,38,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-size: 4rem;
+}
+
+.basic button {
+    background-color: #28a745;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
+.plus button {
+    background-color: #007bff;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
+
+.premium {
+    background: rgb(189,129,255);
+    background: linear-gradient(180deg, rgba(189,129,255,1) 0%, rgba(86,0,143,1) 100%); 
+    color: white;
+    transform: translateY(-50px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.premium h3, .premium h4, .premium p, .premium ul li {
+    color: white;
+}
+
+.premium h4{
+    font-size: 3.5rem;
+}
+
+.premium button {
+    background: rgb(255,215,0);
+    background: linear-gradient(180deg, rgba(255,215,0,1) 0%, rgba(255,167,38,1) 100%);
+
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
+.premium button:hover {
+    background: rgb(255,215,0);
+    background: linear-gradient(0deg, rgba(255,215,0,1) 0%, rgba(255,167,38,1) 100%);
+}
+
+.most-popular {
+    background-color: #FFFFFF;
+    color: #FDC500;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.anjo button {
+    background-color: #800080;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
+
+
 .Cards{
     margin-top: 20rem;
 
@@ -367,103 +589,7 @@ h2{
     transform: rotateY(180deg);
 }
 
-.Precos{
-    margin-top: 19rem;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.Basico, .Plus, .Premium{
-    width: 22.063rem;
-    height: 32.688rem;
-
-    border: 2px solid #BD81FF;
-    border-radius: 1rem;
-
-    margin-left: 2rem;
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.coins{
-    margin-left: 2rem;
-}
-
-.TextPrice{
-    background-color: var( --main--purpletext--solidcolor);
-    background: rgb(205,129,255);
-    background-image: linear-gradient(90deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.preco{
-    font-size: 2.2rem;
-    font-weight: bold;
-
-    background: rgb(255,229,61);
-    background: linear-gradient(0deg, rgba(255,229,61,1) 0%, rgba(253,197,0,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-.spanMes{
-    background-color: var( --main--purpletext--solidcolor);
-    background: rgb(205,129,255);
-    background-image: linear-gradient(90deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-.listaPrecos{
-    padding: 1rem;
-
-    color: var(--main--blacktexte--solidcolor);
-
-    font-size: 2.2rem;
-}
-
-.obter{
-
-    background: rgb(205,129,255);
-    background-image: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
-    border: none;
-    border-radius: 0.5rem;
-
-    cursor: pointer;
-
-    color: var(--main--whitetext--solidcolor);
-
-    font-weight: bold;
-    font-size: 1.5rem;
-
-    width: 18rem;
-    height: 5rem;
-
-    transition: background 0.3s ease, background-image 0.3s ease;
-}
-
-.obter:hover {
-    background: rgb(205,129,255);
-    background-image: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
-}
 
 footer {
     margin-top: 12rem;
@@ -655,7 +781,11 @@ footer {
     background: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
 }
 
+
+
 //Pagina Revisar
+
+
 
 .ResumeArea {
 
@@ -787,46 +917,57 @@ footer {
     transform: rotateY(180deg);
 }
 
-.questions{
-    margin-top: 15rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 20rem;
 
+
+.quiz-container {
+
+    margin-top: 10rem;
+}
+
+.question {
     padding: 1rem;
 
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.questions h2{
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.questao{
-    height: 13rem;
-    margin-bottom: 3rem;
-
-    border:1px solid #9e9ea0;
-    border-radius: 1rem;
-
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.questao ol{
-    font-size: 2.5rem;
-}
-
-.alternativas{
+.question p {
     font-size: 1.5rem;
-    font-weight: bold;
-
+    margin-bottom: 1rem;
 }
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.options button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    color: #1E1F24;
+}
+
+.options button:hover {
+    background-color: #e0e0e0;
+}
+
+.options button:focus {
+    outline: none;
+    background-color: #cfcfcf;
+}
+
 
 
 //Pagina do Usuario
