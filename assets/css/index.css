@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 #textoPrincipal{
     height: 15.188rem;
 
@@ -274,7 +276,6 @@
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-
     font-size: 4rem;
 }
 
@@ -284,8 +285,20 @@
     transition: all 0.2s;
 }
 
+.basic button:hover {
+    background-color: #2D6139;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
 .plus button {
     background-color: #007bff;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
+.plus button:hover {
+    background-color: #2D4661;
     padding: 2rem;
     transition: all 0.2s;
 }
@@ -338,6 +351,12 @@
     transition: all 0.2s;
 }
 
+.anjo button:hover {
+    background-color: #612D61;
+    padding: 2rem;
+    transition: all 0.2s;
+}
+
 
 
 .Cards{
@@ -379,13 +398,14 @@
 
 .card-front,
 .card-back {
+    font-family: 'Inter';
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     border-radius: 1rem;
     display: flex;
-    justify-content: start;
+    text-align: center;
     align-items: center;
     box-sizing: border-box;
     padding: 1rem;
@@ -396,8 +416,7 @@
     transform: rotateY(180deg);
     color: var(--main--whitetext--solidcolor);
     font-size: 2rem;
-    text-align: justify;
-    justify-content: start;
+    text-align: center;
     padding: 1rem;
 }
 
