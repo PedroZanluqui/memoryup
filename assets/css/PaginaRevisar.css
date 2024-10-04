@@ -1,0 +1,180 @@
+.ResumeArea {
+
+}
+
+
+
+.ResumeArea textarea {
+    padding: 10px; 
+    height: 25rem;
+    width: 80rem; 
+    border-radius: 1rem;
+
+    font-size: 1.5rem;
+}
+
+
+.ResumeArea h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.ResumeArea img {
+    margin-left: 3rem;
+}
+
+.btn_revisar{
+    margin-top: 1rem; 
+    padding: 1.5rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    border-radius: 0.7rem;
+    border: 2px solid #56008f;
+
+    background-color: transparent;
+    color: var(--main--purpletext--solidcolor);
+
+}
+
+.btn_revisar:hover {
+    background: rgb(205,129,255);
+    background-image: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
+
+    color: var(--main--whitetext--solidcolor);
+    border: none;
+}
+
+.flashcards h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+}
+
+.flashcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardsFlash{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+}
+
+.card2{
+
+    width: 50rem;
+    height: 33rem;
+
+    background: rgb(189,129,255);
+    background: linear-gradient(180deg, rgba(189,129,255,1) 0%, rgba(86,0,143,1) 100%);
+
+    margin-left: 3rem;
+
+    border-radius: 1rem;
+
+    cursor:pointer;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.P_card2{
+    color: var(--main--bg--footercolor);
+
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    padding: 1.5rem;
+    margin-top: 25rem;
+}
+
+.card2-front,
+.card2-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    letter-spacing: .2rem;
+}
+
+.card2-back {
+    transform: rotateY(180deg);
+    color: var(--main--whitetext--solidcolor);
+    font-size: 2rem;
+    text-align: justify;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card2:hover {
+    transform: rotateY(180deg);
+}
+
+
+
+.quiz-container {
+
+    margin-top: 10rem;
+}
+
+.question {
+    padding: 1rem;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.question p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.options button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    color: #1E1F24;
+}
+
+.options button:hover {
+    background-color: #e0e0e0;
+}
+
+.options button:focus {
+    outline: none;
+    background-color: #cfcfcf;
+}

@@ -1,0 +1,273 @@
+.Cronograma{
+
+}
+
+.Title_Cronograma{
+    margin-bottom: 5rem;
+
+    font-size: 3rem;
+
+    background: rgb(91,93,101);
+    background: linear-gradient(90deg, rgba(91,93,101,1) 0%, rgba(30,31,36,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.card_para_cronograma{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.cards_cronograma{
+    width: 16rem;
+    height: 26rem;
+
+    background: rgb(205,129,255);
+    background: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
+
+    border-radius: 1rem;
+
+    text-align: center;
+    
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+
+}
+
+.cards_cronograma h2{
+    font-size: 3rem;
+    font-weight: bold;
+
+    color: var(--main--whitetext--solidcolor);
+
+}
+
+.cards_cronograma p{
+    font-size: 1.6rem;
+    
+
+    color: var(--main--whitetext--solidcolor);
+}
+
+#Card_cronograma_domingo{
+    background: rgb(255,229,61);
+    background: linear-gradient(90deg, rgba(255,229,61,1) 0%, rgba(253,197,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-weight: bold;
+}
+
+#Card_cronograma_segunda{
+    background: rgb(51,203,104);
+    background: linear-gradient(90deg, rgba(51,203,104,1) 0%, rgba(112,219,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-weight: bold;
+}
+
+.Cronograma {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem; 
+}
+
+.aside_categoria {
+    flex: 0 1 30%; 
+    max-width: 30%; 
+    box-sizing: border-box;
+    padding: 1rem; 
+    margin-left: 15rem; 
+}
+
+.Biblioteca_Categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.Biblioteca_Categorias h2 {
+    background: linear-gradient(90deg, rgba(91,93,101,1) 0%, rgba(30,31,36,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.Categorias_estudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: bold;
+    gap: 1rem;
+    color: var(--main--purpletext--solidcolor); 
+}
+
+.Categorias_estudo h2 {
+    font-size: 2rem;
+}
+
+.Categoria_Gramatica {
+    border: 2px solid #5B5D65;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Categoria_Gramatica .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Categoria_Gramatica p {
+    font-size: 1.2rem;
+}
+
+.Revisao_Prevista {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.previsao_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5rem;
+}
+
+.revisao-hoje{
+    height: 30rem;
+    width: 25rem;
+
+    background-color: var(--main--bg--sectionColor);
+    border-radius: 2rem;
+
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
+  
+}
+
+.revisao-hoje p{
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--main--greentext--solidcolor);
+
+    padding-top: 2rem;
+}
+
+.btn_rev1{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 10rem;
+    margin-top: 1.5rem;
+}
+
+.btn_rev2{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 13rem;
+}
+
+.btn_rev3{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 15rem;
+}
+
+.revisoes_previs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.revisao-atraso{
+    height: 30rem;
+    width: 25rem;
+
+    background-color: var(--main--bg--sectionColor);
+    border-radius: 2rem;
+
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
+  
+}
+
+.revisao-atraso p{
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgb(255,230,61);
+    background: linear-gradient(90deg, rgba(255,230,61,1) 0%, rgba(253,197,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    padding-top: 2rem;
+}
+
+.btn_revisar{
+    margin-top: 1rem; 
+    padding: 1.5rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    border-radius: 0.7rem;
+    border: 2px solid #56008f;
+
+    background-color: transparent;
+    color: var(--main--purpletext--solidcolor);
+
+}
+
+.btn_revisar:hover {
+    background: rgb(205,129,255);
+    background-image: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
+
+    color: var(--main--whitetext--solidcolor);
+    border: none;
+}
