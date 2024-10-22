@@ -88,11 +88,6 @@
     box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
 }
 
-.nav-of-section-material-estudos{
-    
-   
-}
-
 .section-material-estudos hr{
     width: 100%;
     height: 0.2rem;
@@ -186,7 +181,7 @@
     flex-direction: row;
 }
 
-.Planejamento input {
+.Planejamento-input {
     display: inline-block;
     background-color: transparent;
     border-radius: 6px;
@@ -198,8 +193,10 @@
     vertical-align: middle; 
 }
 
-.Planejamento h2{
+.Planejamento-label{
     margin-top: 7rem;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .qtd-dias-planejamento{
@@ -218,14 +215,7 @@
     margin-top: 20rem;
 }
 
-.div-button-enviar-revisoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-button-enviar-revisoes button{
+.button-enviar-revisoes {
     font-size: 1.5rem;
     padding: 2rem;
     width: 25rem;
@@ -239,8 +229,9 @@
     background-image: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
 }
 
-.div-button-enviar-revisoes button::hover{
+.button-enviar-revisoes:hover {
     background: rgb(205,129,255);
     background-image: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
+    font-size: 1.6rem;
     transition: all 0.2s;
 }

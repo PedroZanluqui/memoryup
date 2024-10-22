@@ -10,6 +10,8 @@
     <title>Memory UP</title>
 </head>
 
+<?php session_start(); $_SESSION['user_id'] = 0; ?>
+
 <body>
     <nav>
         <ul id="menuh">

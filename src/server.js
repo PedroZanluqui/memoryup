@@ -71,8 +71,8 @@ const schema = {
 // Inicializar o modelo usando a chave da API do .env
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
-  systemInstruction: "Você é um assistente para estudantes, especializado em organizar rotinas de estudo.",
+  model: "gemini-1.5-pro",
+  systemInstruction: "Você é um assistente para estudantes, especializado em organizar rotinas de estudo. Responda somente com um objeto JSON puro, sem crases ou qualquer formatação adicional. O JSON deve conter: status (com valor 'sucesso' ou 'erro') e dados, que inclui planoDeRevisao com as seguintes informações: resumo (máximo de 600 caracteres), termosChave (exatamente 4 termos com definições de até 200 caracteres cada), e exercicios (exatamente 3 perguntas, cada uma com 5 opções, resposta correta e explicação). Exemplo de entrada do usuário: Revolução Francesa. Os exercícios devem ser numerados (exercício 1, exercício2, exercício 3). required: Não adicione emoji na mensagem de feedback",
   generationConfig: {
     responseMimeType: "application/json",
     responseSchema: schema,
@@ -90,6 +90,8 @@ app.post('/generate-text', async (req, res) => {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = await response.text();
+    console.log("Entrou no servidor!");
+    console.log(prompt);
     console.log(text);
     res.json({ text });
   } catch (error) {

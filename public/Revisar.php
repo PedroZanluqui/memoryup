@@ -11,13 +11,11 @@
 <body>
     <?php 
         session_start();
-        $_SESSION['user_id']= 0;
-        $user_id = $_SESSION['user_id'];
+        $review_id = $_SESSION['review_id'];
+
         require_once('connection/connection.php');
 
-        $get_review_table = mysqli_query($connection, "SELECT * FROM review WHERE user_id = $user_id");
-
-        $get_review = mysqli_fetch_assoc($get_review_table);
+        $get_review = mysqli_fetch_assoc(mysqli_query($connection, "SELECT * FROM review WHERE review_id = $review_id"));
     ?>
 
     <nav>
@@ -95,23 +93,38 @@
         <div class="quiz-container">
 
             <div class="question">
-                <p>1. <?php echo $get_review['question1'] ?></p>
+                <h2>Questão 1</h2>
+                <p><?php echo $get_review['question1'] ?></p>
                 <div class="options">
-                    <button>A) Rachel de Queiroz</button>
-                    <button>B) Jorge Amado</button>
-                    <button>C) José Américo de Almeida</button>
-                    <button>D) Carlos Drummond de Andrade</button>
+                    <button>A) <?php echo $get_review['option1_A']?></button>
+                    <button>B) <?php echo $get_review['option1_B']?></button>
+                    <button>C) <?php echo $get_review['option1_C']?></button>
+                    <button>D) <?php echo $get_review['option1_D']?></button>
+                    <button>E) <?php echo $get_review['option1_E']?></button>
                 </div>
             </div>
 
             <div class="question">
-                <p>2. <?php echo $get_review['question2'] ?></p>
-                <p><?php echo $get_review['choices2'] ?></p>
+            <h2>Questão 2</h2>
+                <p><?php echo $get_review['question2'] ?></p>
                 <div class="options">
-                    <button>A</button>
-                    <button>B</button>
-                    <button>C</button>
-                    <button>D</button>
+                    <button>A) <?php echo $get_review['option2_A']?></button>
+                    <button>B) <?php echo $get_review['option2_B']?></button>
+                    <button>C) <?php echo $get_review['option2_C']?></button>
+                    <button>D) <?php echo $get_review['option2_D']?></button>
+                    <button>E) <?php echo $get_review['option2_E']?></button>
+                </div>
+            </div>
+
+            <div class="question">
+                <h2>Questão 3</h2>
+                <p><?php echo $get_review['question3'] ?></p>
+                <div class="options">
+                    <button>A) <?php echo $get_review['option3_A']?></button>
+                    <button>B) <?php echo $get_review['option3_B']?></button>
+                    <button>C) <?php echo $get_review['option3_C']?></button>
+                    <button>D) <?php echo $get_review['option3_D']?></button>
+                    <button>E) <?php echo $get_review['option3_E']?></button>
                 </div>
             </div>
         </div>
