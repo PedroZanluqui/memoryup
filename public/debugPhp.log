@@ -34,3 +34,66 @@ _ QUERY SUCCESS: Revisão inserida no BD.
 sessão[novo_id_revisao]: 17
 _ Script addCategory.php fechado.
 
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Pablo Marçal
+> Resumo: Pablo Marçal é um influenciador digital, coach, escritor e empresário brasileiro. Ele é conhecido por suas palestras e livros sobre desenvolvimento pessoal e profissional, além de seu estilo de vida extravagante e polêmico. Marçal ganhou notoriedade por meio das redes sociais, onde compartilha suas ideias e experiências. Ele também é fundador de uma empresa de marketing multinível. Em 2023, Marçal se envolveu em uma polêmica após liderar uma expedição ao Pico dos Marins que resultou em um resgate do grupo pelas autoridades, levantando questões sobre segurança e responsabilidade.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 20
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Pedro Alvares Cabral
+> Resumo: Pedro Álvares Cabral foi um navegador português que liderou a expedição responsável pela descoberta do Brasil em 1500. A expedição tinha como objetivo chegar às Índias, contornando a África, em busca de especiarias. Em 22 de abril de 1500, a frota de Cabral desembarcou no litoral do atual estado da Bahia, marcando o início da colonização portuguesa no Brasil. A viagem de Cabral teve grande importância histórica e geopolítica, expandindo o império português e dando início a um novo capítulo na história do Brasil.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 21
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: GRÉCIA ANTIGA
+> Resumo: A Grécia Antiga, berço da democracia e da filosofia ocidental, floresceu entre os séculos VIII e II a.C. Composta por diversas cidades-estado independentes, como Atenas, Esparta e Tebas, a Grécia Antiga deixou um legado duradouro em áreas como arte, arquitetura, literatura, política e filosofia. As cidades-estado gregas eram frequentemente rivais, mas se uniram contra ameaças externas, como durante as Guerras Persas. A Grécia Antiga viu o surgimento de figuras importantes como Sócrates, Platão, Aristóteles, Alexandre, o Grande, Péricles, Homero e muitos outros, que moldaram a história e o pensamento ocidental.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 22
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 5
+> Título: Torre Eiffel
+> Resumo: A Torre Eiffel é uma torre treliçada de ferro de pudlagem localizada no Campo de Marte, em Paris, França. Foi nomeada em homenagem ao engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre. Construída em 1889 como o arco de entrada da Exposição Universal de 1889, inicialmente criticada por alguns dos principais artistas e intelectuais franceses de sua época, tornou-se um ícone cultural global da França e uma das estruturas mais reconhecíveis do mundo. A torre tem 330 metros (1.083 pés) de altura, o equivalente a um prédio de 81 andares, e é a estrutura mais alta de Paris. Sua base é quadrada, medindo 125 metros (410 pés) de cada lado. A torre recebeu mais de 250 milhões de visitantes desde sua inauguração em 1889. A Torre Eiffel é o monumento pago mais visitado do mundo; 6,91 milhões de pessoas subiram nela em 2015.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 23
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: GrÉcia Antiga
+> Resumo: A Grécia Antiga, berço da democracia e filosofia ocidental, floresceu entre os séculos VIII a.C. e VI d.C. Dividida em cidades-estado como Atenas, conhecida por sua democracia e cultura, e Esparta, famosa por sua organização militar, a Grécia Antiga deixou um legado duradouro nas artes, ciências, política e filosofia.  A mitologia grega, rica em deuses e deusas como Zeus, Hera e Poseidon, influenciou profundamente a arte e a literatura. O período também testemunhou o surgimento de grandes pensadores como Sócrates, Platão e Aristóteles, moldando o pensamento ocidental. As conquistas alexandrinas expandiram a cultura grega, criando o período helenístico.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 24
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Humanismo
+> Resumo: O Humanismo foi um movimento intelectual e cultural que surgiu na Itália no século XIV e se espalhou pela Europa. Ele representou uma mudança de mentalidade em relação à Idade Média, colocando o ser humano no centro das atenções e valorizando a razão, a ética e o conhecimento. Os humanistas buscaram inspiração na cultura clássica greco-romana, promovendo a educação, a arte e a literatura. Figuras importantes do Humanismo incluem Leonardo da Vinci, Michelangelo, Erasmo de Rotterdam e Thomas More.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 25
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Tancredo Neves
+> Resumo: Tancredo Neves foi um político brasileiro que se tornou símbolo da esperança democrática durante o fim da Ditadura Militar (1964-1985). Eleito presidente indiretamente em 1985, representou a Nova República, mas faleceu antes de tomar posse. Sua trajetória política incluiu cargos como Deputado Federal, Senador e Governador de Minas Gerais, sempre atuando como mediador e conciliador. Tancredo defendia o diálogo, a democracia e a justiça social. Apesar de sua morte prematura, seu legado político e sua contribuição para a redemocratização do Brasil são inegáveis.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 26
+_ Script addCategory.php fechado.
+

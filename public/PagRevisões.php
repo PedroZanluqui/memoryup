@@ -30,8 +30,10 @@
     let generate_response = <?php echo $_SESSION['generate_response'] ?>;
 </script>
 
-<body>
-    <nav>
+<body onload="endLoader()">
+    <div class="loader" id="loader"></div>
+
+    <nav id="nav_content" style="display: none">
         <ul id="menuh">
             <li>
                 <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logo">
@@ -44,14 +46,14 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main_content" style="display: none">
         <div class="classeQueNaoFunciona" style="margin: 0 10rem;">
             <div class="text-pagRevisao">
-                <h2>Planejar Revisão</h2>
+                <h1>Planejar Revisão</h1>
 
                 <div class="input-categoria">
                     <form id="form-categoria" method="POST" action="addCategory.php">
-                    <p>Criar nova categoria:</p><input type="text" name="title"><button id="add-category-button" type="submit" class="button-categoria" form="form-categoria">+</button>
+                    <label class="Planejamento-label" for="title">Criar nova categoria:</label><input type="text" name="title" id="category_input"><button id="add-category-button" type="submit" class="button-categoria" form="form-categoria">+</button>
                     </form>
                 </div>
             </div>
@@ -98,7 +100,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="footer_content" style="display: none">
         <img src="./assets/img/footer.svg" alt="" class="imgFooter">
 
         <div class="footer">
@@ -118,6 +120,7 @@
             <p class="copy">Criado e desenvolvido pelo time Devs212</p>
         </div>
     </footer>
-    <script src="assets/js/script.js" type="module"></script>
+    <script src="assets/js/pagCriarRevisao.js" type="module"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

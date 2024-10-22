@@ -10,7 +10,7 @@
     file_put_contents('debugPhp.log', "X Script addCategory.php aberto;\n", FILE_APPEND);
         
     $selected_category_id = $_POST['selected_category_id'];
-    $review_title = ucwords(trim($_POST['review_title'])); 
+    $review_title = ucwords(strtolower(trim($_POST['review_title']))); 
     $feedback = $_POST['feedback'];
 
     $summary = $_POST['summary'];

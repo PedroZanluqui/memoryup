@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="./assets/css/PaginaRevisar.css">
     <title>Revisão</title>
 </head>
-<body>
-    <?php 
-        session_start();
-        $review_id = $_SESSION['review_id'];
 
-        require_once('connection/connection.php');
+<?php 
+    session_start();
+    $review_id = $_SESSION['review_id'];
 
-        $get_review = mysqli_fetch_assoc(mysqli_query($connection, "SELECT * FROM review WHERE review_id = $review_id"));
-    ?>
+    require_once('connection/connection.php');
 
-    <nav>
+    $get_review = mysqli_fetch_assoc(mysqli_query($connection, "SELECT * FROM review WHERE review_id = $review_id"));
+?>
+
+<body onload="endLoader()">
+    <div class="loader" id="loader"></div>
+
+    <nav id="nav_content" style="display: none">
         <ul id="menuh">
             <li>
                 <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logo">
@@ -31,7 +34,8 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main_content" style="display: none">
+        <h1>REVISÃO: <?php echo $get_review['title'] ?></h1>
         <div class="ResumeArea" style=" display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 2rem; margin-left: 5rem; gap: 1rem; padding: 5rem; margin-bottom: 12rem;">
             <div class="textContainer">
                 <h2>Resumo</h2>
@@ -130,8 +134,8 @@
         </div>
     </main>
     
-    <footer>
-        <img src="./assets/img/footer.svg" alt="" class="imgFooter">
+    <footer id="footer_content" style="display: none">
+        <img src="./assets/img/footer.svg" class="imgFooter">
 
         <div class="footer">
             <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logoFooter">
@@ -150,6 +154,7 @@
             <p class="copy">Criado e desenvolvido pelo time Devs212</p>
         </div>
         
-    </footer>
+    </footer>    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
