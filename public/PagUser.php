@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./assets/css/PaginaUsuario.css">
     <title>Minha página</title>
 </head>
-<body>
-    <nav>
+<body onload="endLoader()">
+    <div class="loader" id="loader"></div>
+    <nav id="nav_content" style="display: none">
         <ul id="menuh">
             <li>
                 <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logo">
@@ -22,7 +23,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main_content" style="display: none">
         <div class="Cronograma" style=" display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <h2 class="Title_Cronograma">Cronograma Semanal</h2>
 
@@ -76,7 +77,7 @@
                             <h2 style="color: var(--main--purpletext--solidcolor)">Gramática</h2>
                             <p>Verbos &nbsp;&nbsp; Uso de crase</p>
                         </div>
-                        <img src="./assets/img/play.svg" alt="botao de play">
+                        <img src="assets/img/play.png" alt="botao de play">
                     </section>
     
                     <section class="Categoria_Gramatica">
@@ -84,7 +85,7 @@
                             <h2 style="color: var(--main--purpletext--solidcolor)">Literatura</h2>
                             <p>Quinhentismo &nbsp;Barroco &nbsp;Arcadismo &nbsp;Romantismo</p>
                         </div>
-                        <img src="./assets/img/play.svg" alt="botao de play">
+                        <img src="assets/img/play.png" alt="botao de play">
                     </section>
     
                     <section class="Categoria_Gramatica">
@@ -92,7 +93,7 @@
                             <h2 style="color: var(--main--purpletext--solidcolor)">Inglês</h2>
                             <p>Tópico 1 &nbsp;&nbsp;Tópico 2</p>
                         </div>
-                        <img src="./assets/img/play.svg" alt="botao de play">
+                        <img src="assets/img/play.png" alt="botao de play">
                     </section>
                 </div>
             </aside>
@@ -146,7 +147,7 @@
         
     </main>
 
-    <footer>
+    <footer id="footer_content" style="display: none">
         <img src="./assets/img/footer.svg" alt="" class="imgFooter">
 
         <div class="footer">
@@ -167,5 +168,6 @@
         </div>
         
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

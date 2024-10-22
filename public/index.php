@@ -12,8 +12,9 @@
 
 <?php session_start(); $_SESSION['user_id'] = 0; ?>
 
-<body>
-    <nav>
+<body onload="endLoader()">
+    <div class="loader" id="loader"></div>
+    <nav id="nav_content" style="display: none">
         <ul id="menuh">
             <li>
                 <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logo">
@@ -26,7 +27,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main_content" style="display: none">
         <div id="textoPrincipal">
             <h1>Mude sua forma de estudar!</h1>
             <p class="P_principal">Faça o upload de materiais didático e gere planejamentos personalizados com resumos
@@ -141,7 +142,7 @@
         
     </main>
 
-    <footer>
+    <footer id="footer_content" style="display: none">
         <img src="./assets/img/footer.svg" alt="" class="imgFooter">
 
         <div class="footer">
@@ -162,6 +163,7 @@
         </div>
         
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

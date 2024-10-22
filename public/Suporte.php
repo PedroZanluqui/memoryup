@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="./assets/css/suporte.css">
     <title>Memory UP</title>
 </head>
-<body>
-    <nav>
+<body onload="endLoader()">
+    <div class="loader" id="loader"></div>
+
+    <nav id="nav_content" style="display: none">
         <ul id="menuh">
             <li>
                 <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logo">
@@ -22,7 +24,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main_content" style="display: none">
         <div class="contatos">
             <section class="FrameContatos">
                 <h2 class="TitleContato">Informações de Contato</h2>
@@ -86,7 +88,7 @@
         
     </main>
 
-    <footer>
+    <footer id="footer_content" style="display: none">
         <img src="./assets/img/footer.svg" alt="" class="imgFooter">
 
         <div class="footer">
@@ -107,5 +109,7 @@
         </div>
         
     </footer>
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>

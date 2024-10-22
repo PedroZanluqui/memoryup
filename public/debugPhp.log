@@ -97,3 +97,12 @@ _ QUERY SUCCESS: Revisão inserida no BD.
 sessão[novo_id_revisao]: 26
 _ Script addCategory.php fechado.
 
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 6
+> Título: Fernando Pessoa
+> Resumo: Fernando Pessoa foi um dos maiores escritores portugueses do século XX, conhecido por sua poesia inovadora e pela criação de seus heterônimos, personalidades literárias distintas com estilos próprios, como Alberto Caeiro, Ricardo Reis e Álvaro de Campos. Pessoa explorou temas como a identidade, a existência e a subjetividade, utilizando diferentes formas poéticas. Sua obra mais famosa, "Livro do Desassossego", escrita sob a persona de Bernardo Soares, é um diário ficcional que reflete sobre a condição humana.  A poesia de Pessoa é marcada pela introspecção, pela melancolia e por uma profunda reflexão sobre o sentido da vida.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 27
+_ Script addCategory.php fechado.
+
