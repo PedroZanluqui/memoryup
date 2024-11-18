@@ -1,0 +1,8 @@
+{
+    "name": "memoryup",
+    "description": "Projeto MemoryUp",
+    "require": {
+      "php": "^8.0"
+    }
+  }
+  
