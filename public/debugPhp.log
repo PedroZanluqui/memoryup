@@ -1,0 +1,27 @@
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Função Logarítmica
+> Resumo: A função logarítmica, inversa da função exponencial, é definida como logb(x) = y se e somente se b^y = x, onde b é a base (b > 0 e b ≠ 1), x é o argumento (x > 0) e y é o logaritmo.  A função logarítmica descreve o expoente ao qual a base deve ser elevada para obter o argumento. Propriedades importantes incluem logb(1) = 0, logb(b) = 1, e a mudança de base.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 59
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 19
+> Título: Análise Música Taylor Swift I Hate It Here
+> Resumo: A música \"I Hate It Here\" de Taylor Swift explora sentimentos de frustração, descontentamento e vulnerabilidade em situações difíceis. Através de metáforas e linguagem expressiva, a artista retrata a experiência de estar presa em um ciclo de negatividade. A música ressoa com ouvintes que se identificam com a sensação de estar em um momento ruim e oferece uma catarse para essas emoções.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 60
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 9
+> Título: Movimento Retílineo
+> Resumo: Movimento Retílineo Uniforme (MRU) é caracterizado por velocidade constante, sem aceleração. Sua equação é dada por S = So + vt, onde S é a posição final, So é a posição inicial, v é a velocidade e t é o tempo. Movimento Retílineo Uniformemente Variado (MRUV) apresenta aceleração constante. Suas equações são: V = Vo + at, S = So + Vot + (1/2)at², e V² = Vo² + 2aS, onde a é a aceleração.  Esses conceitos são fundamentais para entender o movimento de objetos em uma única dimensão.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 61
+_ Script addCategory.php fechado.
+

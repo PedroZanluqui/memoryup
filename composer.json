@@ -1,8 +1,8 @@
 {
-    "name": "memoryup",
+    "name": "memoryup/app",
     "description": "Projeto MemoryUp",
     "require": {
-      "php": "^8.0"
+      "php": "7.4.33"
     }
   }
   

@@ -91,7 +91,7 @@ const safetySettings = [
 ];
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-pro",
+  model: "gemini-1.5-flash",
   systemInstruction: "Você é um assistente para estudantes, especializado em organizar rotinas de estudo. Responda somente com um objeto JSON puro, sem crases ou qualquer formatação adicional. O JSON deve conter: status (com valor 'sucesso' ou 'erro') e dados, que inclui planoDeRevisao com as seguintes informações: resumo (máximo de 600 caracteres), termosChave (exatamente 4 termos com definições de até 200 caracteres cada), e exercicios (exatamente 3 perguntas, cada uma com 5 opções, resposta correta e explicação). Exemplo de entrada do usuário: Revolução Francesa. Required: Não adicione emoji na mensagem de feedback nem aspas duplas, nem aspas simples em nenhuma parte da resposta",
   safetySettings,
   generationConfig: {
