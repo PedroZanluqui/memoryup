@@ -3,9 +3,9 @@
 }
 
 .Title_Cronograma{
-    margin-bottom: 5rem;
+    margin-bottom: 50PX;
 
-    font-size: 3rem;
+    font-size: 36px;
 
     background: rgb(91,93,101);
     background: linear-gradient(90deg, rgba(91,93,101,1) 0%, rgba(30,31,36,1) 100%);
@@ -23,23 +23,23 @@
 }
 
 .cards_cronograma{
-    width: 16rem;
-    height: 26rem;
+    width: 154px;
+    height: 250px;
 
     background: rgb(205,129,255);
     background: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
 
-    border-radius: 1rem;
+    border-radius: 16px;
 
     text-align: center;
     
-    margin-left: 1.5rem;
-    padding: 1.5rem;
+    margin-left: 16px;
+    padding: 16px;
 
 }
 
 .cards_cronograma h2{
-    font-size: 3rem;
+    font-size: 36px;
     font-weight: bold;
 
     color: var(--main--whitetext--solidcolor);
@@ -47,7 +47,7 @@
 }
 
 .cards_cronograma p{
-    font-size: 1.6rem;
+    font-size: 15px;
     
 
     color: var(--main--whitetext--solidcolor);
@@ -78,23 +78,23 @@
 .Cronograma {
     width: 100%;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 26px;
 }
 
 .main-content {
     display: flex;
     width: 100%;
     align-items: flex-start;
-    gap: 2rem;
-    padding: 1rem; 
+    gap: 20px;
+    padding: 16px; 
 }
 
 .aside_categoria {
     flex: 0 1 30%; 
     max-width: 30%; 
     box-sizing: border-box;
-    padding: 1rem; 
-    margin-left: 15rem; 
+    padding: 16px; 
+    margin-left: 50px; 
 }
 
 .Biblioteca_Categorias {
@@ -102,7 +102,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .Biblioteca_Categorias h2 {
@@ -119,7 +119,7 @@
     align-items: flex-start;
     justify-content: center;
     font-weight: bold;
-    gap: 1rem;
+    gap: 10px;
     color: var(--main--purpletext--solidcolor); 
 }
 
@@ -129,25 +129,25 @@
 
 .Categoria_Gramatica {
     border: 2px solid #5B5D65;
-    border-radius: 1rem;
-    padding: 1rem;
+    border-radius:  16px;
+    padding:  16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 16px;
+    margin-bottom:  16px;
 }
 
 .Categoria_Gramatica .text-container {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 .Categoria_Gramatica p {
-    font-size: 1.2rem;
+    font-size: 12px;
 }
 
 .Revisao_Prevista {
@@ -164,15 +164,15 @@
     align-items: center;
     justify-content: center;
 
-    margin-bottom: 5rem;
+    margin-bottom: 50px;
 }
 
 .revisao-hoje{
-    height: 30rem;
-    width: 25rem;
+    height: 350px;
+    width: 250px;
 
     background-color: var(--main--bg--sectionColor);
-    border-radius: 2rem;
+    border-radius: 16px;
 
     box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
   
@@ -181,11 +181,11 @@
 .revisao-hoje p{
     text-align: center;
 
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
     color: var(--main--greentext--solidcolor);
 
-    padding-top: 2rem;
+    padding-top: 16px;
 }
 
 .btn_rev1{
@@ -194,8 +194,8 @@
     margin-left: auto;
     margin-right: auto;
 
-    width: 10rem;
-    margin-top: 1.5rem;
+    width: 100px;
+    margin-top: 16px;
 }
 
 .btn_rev2{
@@ -204,7 +204,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    width: 13rem;
+    width: 150px;
 }
 
 .btn_rev3{
@@ -213,22 +213,22 @@
     margin-left: auto;
     margin-right: auto;
 
-    width: 15rem;
+    width: 175px;
 }
 
 .revisoes_previs{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 16px;
 }
 
 .revisao-atraso{
-    height: 30rem;
-    width: 25rem;
+    height: 300px;
+    width: 250px;
 
     background-color: var(--main--bg--sectionColor);
-    border-radius: 2rem;
+    border-radius: 16px;
 
     box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
   
@@ -237,7 +237,7 @@
 .revisao-atraso p{
     text-align: center;
 
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
     background: rgb(255,230,61);
     background: linear-gradient(90deg, rgba(255,230,61,1) 0%, rgba(253,197,0,1) 100%);
@@ -246,17 +246,17 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 
-    padding-top: 2rem;
+    padding-top: 16px;
 }
 
 .btn_revisar{
-    margin-top: 1rem; 
-    padding: 1.5rem;
+    margin-top: 20px; 
+    padding: 16px;
 
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: bold;
 
-    border-radius: 0.7rem;
+    border-radius: 12px;
     border: 2px solid #56008f;
 
     background-color: transparent;

@@ -45,16 +45,15 @@ button {
     --main--bg--sectionColor: #F6F7F8;
 }
 
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
-    font-size:62.5%;
+* {
+    font-size: 62.5%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -65,7 +64,6 @@ body {
 }
 
 nav {
-
     height: 5rem;
 }
 
@@ -82,10 +80,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     font-size: 5rem;
-
-    background-color: var( --main--purpletext--solidcolor);
+    background-color: var(--main--purpletext--solidcolor);
     background: rgb(205,129,255);
     background-image: linear-gradient(90deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
     -webkit-background-clip: text;
@@ -94,11 +90,10 @@ h1 {
     -moz-text-fill-color: transparent;
 }
 
-h2{
+h2 {
     font-size: 2.50rem;
     font-weight: bold;
     color: var(--main--blacktexte--solidcolor);
-
 }
 
 footer {
@@ -108,10 +103,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
-hr{
+hr {
     border: 1px solid gray;
 }
 
@@ -142,7 +136,7 @@ main {
     left: 5rem;
 }
 
-.user{
+.user {
 
 }
 
@@ -164,7 +158,7 @@ main {
     background: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
     color: var(--main--whitetext--solidcolor);
     border: none;
-    border-radius:  1rem;
+    border-radius: 1rem;
     transition: 0.5s;
     cursor: pointer;
     transition: background 0.5s ease;
@@ -182,7 +176,7 @@ main {
     background: rgb(255,229,61);
     background: linear-gradient(180deg, rgba(255,229,61,1) 0%, rgba(253,197,0,1) 100%);
     border: none;
-    color: var( --main--purpletext--solidcolor);
+    color: var(--main--purpletext--solidcolor);
     font-weight: bold;
     border-radius: 1rem;
     cursor: pointer;
@@ -205,40 +199,49 @@ main {
 .logoFooter {
     position: absolute;
     left: 4rem;
+    top: 2rem;
 }
 
-.footer{
-    background-color: var( --main--bg--footercolor); 
+.footer {
+    background-color: var(--main--bg--footercolor); 
     width: 100%;
-
-
     position: relative; 
+    padding: 2rem 0;
 }
 
-.textFooter{
-
+.textFooter {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end; 
-
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center; 
     margin-right: 10rem;
     gap: 1rem; 
-
-    font-size: 4rem;
-
+    font-size: 1.5rem;
     list-style: none;
-} 
+    padding: 0;
+}
 
-.copy{
+.textFooter li {
+    margin-bottom: 1rem;
+}
+
+.textFooter a {
+    color: var(--main--blacktexte--solidcolor);
+    transition: color 0.3s;
+}
+
+.textFooter a:hover {
+    color: var(--main--purpletext--solidcolor);
+}
+
+.copy {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-
     font-size: 1.5rem;
-
-    color: var( --main--purpletext--solidcolor); 
+    color: var(--main--purpletext--solidcolor); 
+    margin-top: 2rem;
 }
 
 .loader {

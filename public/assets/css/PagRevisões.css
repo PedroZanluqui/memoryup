@@ -4,16 +4,16 @@
 
 .text-pagRevisao h2{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 52px;
 }
 
 .input-categoria {
-    margin-top: 5rem;
+    margin-top: 60px;
 }
 
 .input-categoria p {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 16px;
     margin: 0;
     vertical-align: middle; 
     font-weight: bold;
@@ -25,18 +25,18 @@
     border-radius: 6px;
     border: 1px solid #9e9ea0;
     width: 30%;
-    height: 3.5rem;
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 16px;
     vertical-align: middle; 
 }
 
 .button-categoria {
     display: inline-block;
-    margin-left: 1.5rem;
-    font-size: 2rem;
-    width: 4rem;
-    height: 3.5rem;
+    margin-left: 16px;
+    font-size: 20px;
+    width: 40px;
+    height: 35px;
     border: none;
     border-radius: 3px;
     color: var(--main--whitetext--solidcolor);
@@ -56,41 +56,41 @@
     border-radius: 6px;
     border: 1px solid #9e9ea0;
     width: 30%;
-    height: 3.5rem;
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 20px;
     vertical-align: middle; 
 }
 
 .input-categoria option{
-    font-size: 1.5rem;
+    font-size: 14px;
 }
 
 .main-material-estudos{
     display: flex;
     width: 100%;
     align-items: flex-start;
-    gap: 2rem;
-    padding: 1rem; 
+    gap: 20px;
+    padding: 16px; 
 }
 
 .section-material-estudos {
     flex: 0 1 30%; 
     max-width: 30%; 
     box-sizing: border-box;
-    margin-left: 7.5rem; 
-    margin-top: 5rem;
-    width: 10rem;
-    height: 36rem;
+    margin-left: 70px; 
+    margin-top: 60px;
+    width: 120px;
+    height: 400px;
 
     background-color: #F7F9FB;
-    border-radius: 2rem;
+    border-radius: 24px;
     box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.1);
 }
 
 .section-material-estudos hr{
     width: 100%;
-    height: 0.2rem;
+    height: 2px;
 }
 
 .file-area {
@@ -105,12 +105,12 @@
 }
 
 .label-input{
-    font-size: 1.5rem;
+    font-size: 16px;
     color: #9e9ea0;
 
-    margin: 2rem;
+    margin: 30px;
 
-    padding: 9rem;
+    padding: 70px;
 
     border: 3px dashed #E2E6EA;
     border-radius: 1rem;
@@ -118,9 +118,9 @@
 }
 
 .button-toggle{
-    border-radius: 3rem;
+    border-radius: 20px;
     border: none;
-    width: 15rem;
+    width: 250px;
 
     background-color: transparent;
 
@@ -133,15 +133,15 @@
     align-items: center;
     text-align: center;
 
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 1.9rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
 
     background-color: #F0F0F0;
-    border-radius: 3.5rem;
+    border-radius: 20px;
 
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
 
     transition: all 1s;
 
@@ -155,8 +155,8 @@
     color: var(--main--whitetext--solidcolor);
     font-weight: bold;
     border: none;
-    border-radius: 3rem;
-    padding: 1rem 2rem;
+    border-radius: 20px;
+    padding: 16px 24px;
     transition: all 0.2s;
 }
 
@@ -167,13 +167,13 @@
     color: var(--main--whitetext--solidcolor);
     font-weight: bold;
     border: none;
-    border-radius: 3rem;
-    padding: 1rem 2rem;
+    border-radius: 20px;
+    padding: 16px 24px;
     transition: all 0.2s;
 }
 
 .Planejamento{
-   margin-left: 10rem; 
+   margin-left: 100px; 
 }
 
 .main-Upload-Planejamento{
@@ -186,17 +186,17 @@
     background-color: transparent;
     border-radius: 6px;
     border: 1px solid #9e9ea0;
-    width: 35rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 25px;
     vertical-align: middle; 
 }
 
 .Planejamento-label{
-    margin-top: 7rem;
+    margin-top: 70px;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 24px;
 }
 
 .qtd-dias-planejamento{
@@ -204,26 +204,26 @@
     background-color: transparent;
     border-radius: 6px;
     border: 1px solid #9e9ea0;
-    width: 15rem;
-    height: 3.5rem;
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    width: 35px;
+    height: 25px;
+    font-size: 16px;
+    margin-left: 16px;
     vertical-align: middle; 
 }
 
 .main-Upload-Planejamento img{
-    margin-top: 20rem;
+    margin-top: 200px;
 }
 
 .button-enviar-revisoes {
-    font-size: 1.5rem;
-    padding: 2rem;
-    width: 25rem;
+    font-size: 16px;
+    padding: 16px;
+    width: 45%;
 
     color: var(--main--whitetext--solidcolor);
     font-weight: bold;
 
-    border-radius: 1rem;
+    border-radius: 16px;
     border: none;
     background: rgb(205,129,255);
     background-image: linear-gradient(180deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
@@ -232,6 +232,6 @@
 .button-enviar-revisoes:hover {
     background: rgb(205,129,255);
     background-image: linear-gradient(0deg, rgba(205,129,255,1) 0%, rgba(86,0,143,1) 100%);
-    font-size: 1.6rem;
+    font-size:16px;
     transition: all 0.2s;
 }

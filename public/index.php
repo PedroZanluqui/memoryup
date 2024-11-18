@@ -35,7 +35,7 @@
             <div class="botoesPrincipais">
                 <a href="#curvaEsquecimento" target="_self"><button class="curva">O que é a Curva do
                         Esquecimento?</button></a>
-               <a href="#pricing-section" target="_self"> <button class="testar">Testar</button></a>
+               <a href="#pricing-section" target="_self"> <button class="testar">Testar Agora</button></a>
             </div>
         </div>
 
@@ -143,26 +143,19 @@
     </main>
 
     <footer id="footer_content" style="display: none">
-        <img src="./assets/img/footer.svg" alt="" class="imgFooter">
+    <img src="./assets/img/footer.svg" alt="" class="imgFooter">
+    <div class="footer">
+        <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logoFooter">
+        <ul class="textFooter">
+            <li><a href="index.php" class="">Home</a></li>
+            <li><a href="Suporte.php" class="">Suporte</a></li>
+            <li><a href="PagRevisões.php" class="">Planejar Revisão</a></li>
+            <li><a href="Revisar.php" class="">Revisar</a></li>
+        </ul>
+        <p class="copy">Criado e desenvolvido pelo time Devs212</p>
+    </div>
+</footer>
 
-        <div class="footer">
-            <img src="./assets/img/Logo.svg" alt="Logo do Memory UP" class="logoFooter">
-        
-            <ul class="textFooter">
-                <li>
-                    <a href="index.php"  class="">Home</a>
-                    <br>
-                    <a href="Suporte.php"  class="">Suporte</a>
-                    <br>
-                    <a href="PagRevisões.php"  class="">Planejar Revisão</a>
-                    <br>
-                    <a href="Revisar.php"  class="">Revisar</a>
-                </li>
-            </ul>
-            <p class="copy">Criado e desenvolvido pelo time Devs212</p>
-        </div>
-        
-    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 

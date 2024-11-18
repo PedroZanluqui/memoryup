@@ -1,0 +1,117 @@
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Função Logarítmica
+> Resumo: A função logarítmica, inversa da função exponencial, é definida como logb(x) = y se e somente se b^y = x, onde b é a base (b > 0 e b ≠ 1), x é o argumento (x > 0) e y é o logaritmo.  A função logarítmica descreve o expoente ao qual a base deve ser elevada para obter o argumento. Propriedades importantes incluem logb(1) = 0, logb(b) = 1, e a mudança de base.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 59
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 19
+> Título: Análise Música Taylor Swift I Hate It Here
+> Resumo: A música \"I Hate It Here\" de Taylor Swift explora sentimentos de frustração, descontentamento e vulnerabilidade em situações difíceis. Através de metáforas e linguagem expressiva, a artista retrata a experiência de estar presa em um ciclo de negatividade. A música ressoa com ouvintes que se identificam com a sensação de estar em um momento ruim e oferece uma catarse para essas emoções.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 60
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 9
+> Título: Movimento Retílineo
+> Resumo: Movimento Retílineo Uniforme (MRU) é caracterizado por velocidade constante, sem aceleração. Sua equação é dada por S = So + vt, onde S é a posição final, So é a posição inicial, v é a velocidade e t é o tempo. Movimento Retílineo Uniformemente Variado (MRUV) apresenta aceleração constante. Suas equações são: V = Vo + at, S = So + Vot + (1/2)at², e V² = Vo² + 2aS, onde a é a aceleração.  Esses conceitos são fundamentais para entender o movimento de objetos em uma única dimensão.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 61
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 17
+> Título: Ansiedade
+> Resumo: A ansiedade é uma resposta emocional natural, porém se torna um problema quando excessiva ou incapacitante. Manifesta-se fisicamente com taquicardia, sudorese e tremores, e psicologicamente com preocupações excessivas e medo. Existem diversos tipos de transtornos de ansiedade, cada qual com suas características e níveis de intensidade. O tratamento envolve terapia, como a cognitivo-comportamental (TCC), que ajuda a identificar e modificar padrões de pensamento e comportamento, além de técnicas de relaxamento e, em alguns casos, medicamentos. É importante procurar ajuda profissional para um diagnóstico preciso e um plano de tratamento individualizado.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 62
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 5
+> Título: Guerra Do Peloponeso
+> Resumo: A Guerra do Peloponeso (431-404 a.C.) foi um conflito entre Atenas e Esparta, potências dominantes da Grécia Antiga.  A guerra, marcada por batalhas terrestres e navais, teve origem nas crescentes tensões entre as duas cidades-estado e suas respectivas ligas.  As diferenças ideológicas (democracia em Atenas x oligarquia em Esparta), econômicas e estratégicas geraram desconfiança e rivalidade.  Após uma fase inicial de domínio ateniense, Esparta, com o apoio de aliados, obteve uma vitória decisiva que marcou o fim do domínio ateniense e um período de enfraquecimento geral das cidades-estado gregas. A Guerra do Peloponeso teve um profundo impacto na cultura, política e na história posterior da Grécia Antiga.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 63
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 14
+> Título: Quem Foi Walter White
+> Resumo: Walter White, um professor de química com câncer terminal, começa a produzir metanfetamina com seu ex-aluno Jesse Pinkman para garantir o futuro financeiro da família. A série acompanha sua transformação de um homem comum em um poderoso narcotraficante, mostrando os desafios, dilemas morais e consequências de suas ações. Ele se envolve com traficantes perigosos, agentes da lei e inimigos implacáveis, em uma espiral de violência e corrupção, enquanto luta contra sua doença e tenta proteger sua família.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 64
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 8
+> Título: Verbos
+> Resumo: Verbos são palavras que indicam ação, estado ou fenômeno.  Classificam-se em regulares (seguem padrão de conjugação) e irregulares (não seguem padrão). Há diversos tempos verbais (presente, passado, futuro) e modos (indicativo, subjuntivo, imperativo). A conjugação verbal varia de acordo com a pessoa (1ª, 2ª, 3ª) e o número (singular, plural). A correta identificação e conjugação dos verbos é crucial para a construção de frases gramaticalmente corretas.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 24
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Equação De Segundo Grau
+> Resumo: Equação do segundo grau é uma equação polinomial de grau 2 que pode ser escrita na forma ax² + bx + c = 0, onde a, b e c são constantes e a ≠ 0.  Suas raízes (ou soluções) podem ser encontradas usando a fórmula de Bhaskara: x = [-b ± √(b² - 4ac)] / 2a. O discriminante (Δ = b² - 4ac) determina a natureza das raízes: Δ > 0 (duas raízes reais e distintas), Δ = 0 (uma raiz real), Δ < 0 (nenhuma raiz real).  O gráfico de uma equação do segundo grau é uma parábola.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 66
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 8
+> Título: Verbos
+> Resumo: Verbos são palavras que expressam ação, estado ou fenômeno.  Eles se conjugam em tempo (presente, passado, futuro), modo (indicativo, subjuntivo, imperativo), e pessoa (primeira, segunda, terceira). Verbos regulares seguem padrões de conjugação, enquanto verbos irregulares apresentam variações.  A conjugação verbal demonstra a flexão do verbo para concordar com o sujeito da frase.  O estudo da conjugação verbal é fundamental para a compreensão da língua portuguesa.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 24
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 4
+> Título: Funcao Do 1 Grau
+> Resumo: Função do 1° grau, também conhecida como função afim, é representada pela equação f(x) = ax + b, onde \'a\' é o coeficiente angular (indica a inclinação da reta) e \'b\' é o coeficiente linear (indica o ponto de interseção com o eixo y).  Seu gráfico é uma reta.  A raiz da função é o valor de x para o qual f(x) = 0.  Duas funções do 1° grau são paralelas se tiverem o mesmo coeficiente angular \'a\'.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 68
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 14
+> Título: Estequiometria
+> Resumo: Estequiometria e\' o calculo das quantidades de reagentes e produtos em reacoes quimicas. Envolve a utilizacao de massas molares, numero de Avogadro e proporcoes estequiometricas. Para calcular a massa de um produto ou reagente, primeiro balanceia-se a equacao quimica, depois converte-se as massas em mols e utiliza-se as proporcoes estequiometricas entre os componentes.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 55
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 6
+> Título: Placas Tectonicas
+> Resumo: As placas tectônicas são grandes blocos rochosos que compõem a litosfera terrestre. Elas flutuam sobre a astenosfera, uma camada mais viscosa do manto, e movem-se constantemente, causando diversos fenômenos geológicos, como terremotos, vulcanismo e formação de montanhas. A teoria da tectônica de placas explica a deriva continental, a formação dos oceanos e a distribuição de cadeias montanhosas ao redor do globo. Existem três tipos principais de limites de placas: convergentes (onde as placas colidem), divergentes (onde as placas se separam) e transformantes (onde as placas deslizam lateralmente). A movimentação das placas é impulsionada pelas correntes de convecção do manto terrestre, resultantes do calor interno do planeta.  O estudo da tectônica de placas é fundamental para compreender a dinâmica da Terra e os riscos geológicos.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 70
+_ Script addCategory.php fechado.
+
+X Script addCategory.php aberto;
+_ Variáveis:
+> categoria: 13
+> Título: Java
+> Resumo: Este plano de revisão aborda conceitos fundamentais de desenvolvimento de sistemas utilizando Java.  Tópicos como orientação a objetos, a JVM (Java Virtual Machine), e JDBC (Java Database Connectivity) serão revisados. A orientação a objetos, baseada em classes e objetos, permite modularidade e flexibilidade. A JVM garante portabilidade do código Java. O JDBC possibilita a conexão com bancos de dados.  Estude esses conceitos para solidificar o conhecimento em desenvolvimento Java.
+_ QUERY SUCCESS: Revisão inserida no BD.
+sessão[novo_id_revisao]: 71
+_ Script addCategory.php fechado.
+
