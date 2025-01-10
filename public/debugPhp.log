@@ -25,6 +25,7 @@ _ QUERY SUCCESS: Revisão inserida no BD.
 sessão[novo_id_revisao]: 61
 _ Script addCategory.php fechado.
 
+<<<<<<< HEAD
 X Script addCategory.php aberto;
 _ Variáveis:
 > categoria: 17
@@ -115,3 +116,5 @@ _ QUERY SUCCESS: Revisão inserida no BD.
 sessão[novo_id_revisao]: 71
 _ Script addCategory.php fechado.
 
+=======
+>>>>>>> 7f9ed8e0cb85a13382095f98d789378e0fadcd4f
